@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <link rel="shortcut icon" href="download-removebg-preview.png" type="image/x-icon">
+    <title>FORM VALIDATION</title>
+</head>
+<body>
+    
+    <div class="form-box">
+        
+        <form class="form" id="form" action="welcome.html">
+            <h1>Registration Form</h1>
+            <div class="cont">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" class="box" placeholder="Enter Your Name">
+                <div id="nerror" class="err" style="color: red"></div>
+            </div>
+            <div class="cont">
+                <label for="em">Email ID</label>
+                <input type="text" id="em" class="box" spellcheck="false" placeholder="Enter Your Email">
+                <div id="eerror" class="err" style="color: red" ></div>
+            </div>
+            <div class="cont">
+                <label for="phno">Phone No</label>
+                <input type="text" id="phno" class="box" placeholder="Enter Your Phone number">
+                <div id="perror" class="err" style="color: red"></div>
+            </div>
+            <div class="cont">
+                <label for="dob">DOB</label>
+                <input type="date" id="dob" class="box">
+            </div>
+            <div class="cont">
+                <label for="pwd">Password</label>
+                <input type="password" id="pwd" class="box" placeholder="Set password">
+                <div id="pserror" class="err" style="color: red"></div>
+            </div>
+            <div class="cont">
+                <label for="cpwd">Confirm Password</label>
+                <input type="password" id="cpwd" class="box" placeholder="Confirm password">
+                <div id="cpserror" class="err" style="color: red"></div>
+            </div>
+            <input type="submit" class="btn" value="Register">
+        </form>
+    </div>
+    <script src="form.js"></script>
+</body>
+</html>

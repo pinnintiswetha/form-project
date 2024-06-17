@@ -1,0 +1,67 @@
+body{
+    background-image: url('https://static.vecteezy.com/system/resources/previews/002/071/107/original/abstract-blue-curved-line-with-light-on-purple-and-pink-gradient-background-vector.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #afd1ff;
+ } 
+ .form{
+    width: 300px;
+    margin: 5vh auto;
+    padding: 25px;
+    background-color: rgba(155, 237, 255, 0.149);
+    border-radius: 10px;
+    border: 1px solid rgba(192, 255, 252, 0.475);
+    font-size: 15px;
+ }
+ .form h1{
+    color: #feb5f2;
+    font-size: 28px;
+    text-align: center;
+    text-shadow: 2px 2px 3px pink , -2px 2px 3px black;
+ }
+ .btn{
+    padding: 10px;
+    margin-top: 20px;
+    width: 97%;
+    color: rgb(37, 0, 51);
+    background-color: rgba(144, 251, 228, 0.319);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+ }
+ .cont{
+    display: flex;
+    flex-direction: column;
+ }
+ input{
+    border: none;
+    border-radius: 12px;
+    background-color: #feb5f256;
+    color: rgb(165, 229, 252);
+    display: block;
+    font-size: 12px;
+    padding: 10px;
+    width: 90%;
+    cursor: pointer;
+ }
+.cont input:focus{
+    outline: 0;
+}
+
+.err{
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+}
+label{
+    margin-top: 10px;
+}
+input::placeholder{
+    color: #003e65;
+}
+input:hover{
+    background-color: #d5fef074;
+}
+
